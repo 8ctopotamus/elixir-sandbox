@@ -5,6 +5,10 @@
 
 ## Notes
 
+Create project: `mix new <project_name>`
+
 Interactive shell: `iex`
 
 Run project: `iex -S mix`
+
+Logging: `IO.puts(x)`
