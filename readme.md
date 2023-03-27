@@ -1,7 +1,7 @@
 # Elixir Sandbox
 
 ## Resources
-* [Elixir Complete Beginners](https://www.youtube.com/playlist?list=PLhH3UpV2flrxlZubtimU4UnjpJdT0DZcU)
+* [Elixir Complete Beginners - Todos](https://www.youtube.com/playlist?list=PLhH3UpV2flrxlZubtimU4UnjpJdT0DZcU)
 
 ## Notes
 
