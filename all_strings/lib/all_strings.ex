@@ -1,30 +1,22 @@
 defmodule AllStrings do
-  @moduledoc """
-  Documentation for `AllStrings`.
-  """
+  def trim_string(value) do
+    String.trim(value)
+  end
 
-  @doc """
-  Hello world.
+  def first_letter(value) do
+    String.trim(value)
+    |> String.first()
+  end
 
-  ## Examples
+  def initial(value) do
+    first_letter(value)
+    |> String.capitalize()
+  end
 
-      iex> AllStrings.hello()
-      :world
+  def initials(full_name) do
+    list = String.split(full_name)
+    Enum.map(list, fn name ->
 
-  """
-  def string_stuff do
-    # concatination
-    "Hello "<> "world" <> "."
-
-    # interpolation
-    "6 * 7 = #{6 * 7}"
-
-    "Can interpolate lots of things, like booleans #{true} and lists #{["test", "test1", 2323]}"
-
-    """
-    multi
-    line
-    syntax
-    """
+    end)
   end
 end
