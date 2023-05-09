@@ -15,13 +15,18 @@ defmodule LinkedLists do
     tl(list)
   end
 
-  def add_slow(list, item) do
-    list ++ [item]
+  def add_slow(list, value) do
+    list ++ [value]
   end
 
-  def add_fast(list, item) do
-    list_reversed = Enum.reverse(list)
-    updated_list = [item | list_reversed]
-    Enum.reverse(updated_list)
+  def add_fast(list, value) do
+    list
+    |> Enum.reverse
+    |> List.insert_at(0, value)
+    |> Enum.reverse
+  end
+
+  def remove_value(list, value) do
+    list |>List.delete(value)
   end
 end
