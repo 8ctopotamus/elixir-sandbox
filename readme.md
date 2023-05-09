@@ -9,6 +9,6 @@ Create project: `mix new <project_name>`
 
 Interactive shell: `iex`
 
-Run project: `iex -S mix`
+Auto-complete shell on Windows: `iex --werl`
 
-Logging: `IO.puts(x)`
+Run project: `iex -S mix`
