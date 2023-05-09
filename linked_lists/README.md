@@ -1,5 +1,7 @@
 # LinkedLists
 
+Tutorial: https://www.youtube.com/watch?v=f9uV0WCLjBQ&list=PL2Rv8vpZJz4w7Sm9STyZvoY0JAKUk_JOB&index=5
+
 **TODO: Add description**
 
 ## Installation

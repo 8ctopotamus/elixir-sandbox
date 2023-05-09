@@ -29,4 +29,12 @@ defmodule LinkedLists do
   def remove_value(list, value) do
     list |>List.delete(value)
   end
+
+  def count_items(list) do
+    list |> length
+  end
+
+  def check_for_item(list, item) do
+    item in list
+  end
 end
